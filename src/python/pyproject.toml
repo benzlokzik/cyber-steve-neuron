@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-helping-scripts"
+version = "0.1.0"
+description = "additional scripts to generate some data for rust programs"
+authors = ["CyberSteve777 <slacoursedu@gmail.com>", "benzlokzik <121052717+benzlokzik@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_helping_scripts"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+Pillow = "^9.5.0"
+keras = "^2.12.0"
+tensorflow = "^2.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
